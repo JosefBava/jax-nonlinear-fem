@@ -25,6 +25,8 @@
 
 These are useful for presentation, validation, and visual comparison of the benchmark response across different element formulations and constitutive laws.
 
+This project is intended for **educational and research use**
+
 
 This finite-element example set demonstrates the JAX-based Newton solver for both linear-elastic and hyperelastic 3D solids. The examples compare `Hex8` and `Tet4` element formulations and validate the consistent tangent implementation through convergence plots and load-displacement curves.
 
