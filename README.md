@@ -1,4 +1,4 @@
-# FEM benchmark examples
+# FEMexamples
 
 
 
@@ -25,7 +25,7 @@
 
 These are useful for presentation, validation, and visual comparison of the benchmark response across different element formulations and constitutive laws.
 
-This project is intended for **educational and research use**
+
 
 
 This finite-element example set demonstrates the JAX-based Newton solver for both linear-elastic and hyperelastic 3D solids. The examples compare `Hex8` and `Tet4` element formulations and validate the consistent tangent implementation through convergence plots and load-displacement curves.
@@ -58,6 +58,8 @@ Each example uses continuation loading and writes benchmark outputs to `results/
 - `<name>.pvd`: ParaView collection containing the undeformed and final deformed states.
 
 Open the `.pvd` file in ParaView. Time `0` is the undeformed mesh and time `1` is the converged deformed mesh. The VTU files contain the deformed coordinates plus `Displacement` and `DisplacementMagnitude` point fields. The full Newton history remains available in the CSV and convergence PNG. The generated load-displacement curves are useful for comparing the linear Hooke response against the large-strain Neo-Hookean response within the same finite-element framework.
+
+This project is intended for **educational and research use**
 
 
 
